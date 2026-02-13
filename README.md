@@ -1,6 +1,6 @@
 ## SMS Spam Detection Using Python + Machine Learning
 
-### Project Overview :
+#### Project Overview :
 This project builds a Machine Learning model that classifies SMS messages as:
 
 * Spam → Unwanted / promotional / fraudulent messages
@@ -10,13 +10,13 @@ This project builds a Machine Learning model that classifies SMS messages as:
 The system uses Natural Language Processing (NLP) techniques and ML algorithms to automatically detect spam messages.
 
 
-### Problem Statement : 
+#### Problem Statement : 
 Classify SMS messages into Spam or Ham (Not Spam) using Machine Learning.
 
 Spam messages are a major issue in communication systems, and this project demonstrates how ML can help filter unwanted content.
 
 
-### Dataset :
+#### Dataset :
     The dataset contains labeled SMS messages:
         -  Text Message
         -  Label (Spam / Ham)
@@ -27,7 +27,7 @@ Message	                                   Label
 "Hey, are we meeting today?"	           Ham
 
 
-### Project Workflow :
+#### Project Workflow :
 The project follows a standard ML pipeline:
 1. Data Collection
 2. Data Cleaning
@@ -41,7 +41,7 @@ The project follows a standard ML pipeline:
 10. Prediction Demo
 
 
-### Text Preprocessing : 
+#### Text Preprocessing : 
 The SMS text was processed using NLP techniques:
 - Lowercasing
 - Removing punctuation
@@ -56,20 +56,20 @@ Processed:
 "congratul free lotteri prize"
 
 
-### Feature Engineering : 
+#### Feature Engineering : 
 Text data was converted into numerical form using:
 - TF-IDF Vectorization
 This helps the model understand word importance.
 
 
-### Models Used :
+#### Models Used :
 Multiple ML algorithms were trained:
 - Multinomial Naive Bayes
 - Random Forest Classifier
 - Logistic Regression
 
 
-### Model Evaluation Metrics : 
+#### Model Evaluation Metrics : 
 Models were evaluated using:
 - Accuracy
 - Precision
@@ -78,7 +78,7 @@ Models were evaluated using:
 - Confusion Matrix
 
 
-### Prediction Demo :
+#### Prediction Demo :
 The saved model was tested on new SMS messages.
 Input:
 "URGENT! Claim your FREE cash reward now!!!"
@@ -88,28 +88,29 @@ Spam
 This confirms real-world usability.
 
 
-### Model Saving :
+#### Model Saving :
 The trained model and vectorizer were saved using:
 - spam_model.pkl
 - vectorizer.pkl
 Allows reuse without retraining.
 
 
-### Future Improvements :
+#### Future Improvements :
 - Deep Learning models (LSTM / Transformers)
 - Deploy as Web App (Streamlit / Flask)
 - Real-time SMS filtering system
 - Larger dataset training
 
 
-### Key Learnings :
+#### Key Learnings :
 - NLP preprocessing techniques
 - TF-IDF feature extraction
 - Model evaluation & comparison
 - Practical ML pipeline design
 
 
-### Author :
+#### Author :
 Shruti Bunde
+
 Machine Learning / Data Science Enthusiast 🚀
 
